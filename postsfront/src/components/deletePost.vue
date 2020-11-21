@@ -17,7 +17,7 @@ import axios from 'axios'
         methods: {
             deletePost: function() {
                 axios.request({
-                    url: "http://127.0.0.1:5000/posts",
+                    url: "http://firstfullstack.ml/api/posts",
                     method: "DELETE",
                     headers: {
                         "Content-Type": "application/json"

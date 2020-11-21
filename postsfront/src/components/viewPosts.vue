@@ -36,7 +36,7 @@ import DeletePost from './deletePost.vue'
         methods: {
             getPosts: function() {
                 axios.request({
-                    url: "http://127.0.0.1:5000/posts",
+                    url: "http://firstfullstack.ml/api/posts",
                     method: "GET",
                 }).then((response) => {
                     this.posts = response.data
